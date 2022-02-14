@@ -1,11 +1,16 @@
 import './App.css';
-import Homecomponent from './conponents/Homecomponent';
+
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+import Home from './conponents/Home';
+import Form from './conponents/Form';
 
 function App() {
   return (
     <div className="App">
       <h1>Tämä on App Component</h1>
-      <Homecomponent />
+      <Home />
+      <Form />
     </div>
   );
 }
